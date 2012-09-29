@@ -1,0 +1,3 @@
+[submodule "plugins/twoface"]
+	path = plugins/twoface
+	url = git@github.com:wrktg/twoface.git
