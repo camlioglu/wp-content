@@ -1,0 +1,225 @@
+/* Image grid
+---------------------------------------------------------- */
+.wpb_image_grid {
+	
+	.wpb_image_grid_ul {
+		margin-left: 0;
+		padding: 0;
+		
+		.isotope-item {
+			list-style: none;
+			margin: 0 1px 1px 0;
+		}
+		
+		a {
+			display: block;
+		}
+		
+		img {
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+}
+
+
+/* Gallery
+---------------------------------------------------------- */
+.wpb_gallery {
+	position: relative;
+	background: none;
+	
+	.border-radius(0px);
+	.box-shadow(none);
+	
+	.wpb_gallery_slides {
+		position: relative;
+		margin: 0;
+		border: none;
+		background: none;
+		
+		a {
+			padding: 0;
+			margin: 0;
+		}
+		img {
+			height: auto;
+			max-width: 100%;
+			display: block;
+		}
+		
+		.nivo-controlNav,
+		.flex-control-nav {
+			right: 10px;
+			bottom: auto;
+			top: 10px;
+			width: auto;
+			position: absolute;
+			z-index: 50;
+			font-size: 1px;
+			
+			li {
+				margin: 0;
+				padding: 0;
+			}
+			
+			a {
+				background-color: @vc_grey;
+				padding: 0;
+				margin: 0 0 0 3px;
+				
+				font-size: 1px;
+				text-indent: 100px;
+				overflow: hidden;
+				
+				border: none;
+				
+				float: left;
+				
+				.square(6px);
+				.border-radius(0);
+				.wpb_transition();
+				
+				&.active,
+				&:hover,
+				&.flex-active {
+					background-color: darken(@vc_grey, 20%);
+					cursor: pointer;
+				}
+			}
+		}
+		&:hover {
+			.flex-direction-nav,
+			.nivo-directionNav {
+				.opacity(100);
+			}
+		}
+	}
+	
+	.flex-direction-nav,
+	.nivo-directionNav {
+		.opacity(0);
+		.wpb_transition(opacity, 0.2s);
+		
+		a {
+			background-image: url(../images/arrows.png);
+			width: 36px;
+			height: 39px;
+			border: none;
+			display: block;
+		}
+		.flex-next,
+		.nivo-nextNav {
+			background-position: 0 -39px;
+			right: 0px;
+			.opacity(100);
+		}
+		.flex-prev,
+		.nivo-prevNav {
+			left: 0px;
+			.opacity(100);
+		}
+	}
+}
+
+
+/*** remove ul & li margins ***/	
+#content .wpb_gallery_slides ul.slides,
+.content .wpb_gallery_slides ul.slides,
+.wpb_gallery_slides ul.slides,
+
+#content .wpb_gallery_slides ul.flex-direction-nav,
+.content .wpb_gallery_slides ul.flex-direction-nav,
+.wpb_gallery_slides ul.flex-direction-nav,
+
+body .wpb_gallery_slides ul li,
+.wpb_content_element .wpb_gallery_slides ul li {
+	list-style: none;
+	padding: 0;
+	background-image: none;
+    margin: 0;
+}
+
+
+
+/*
+ * jQuery Nivo Slider v2.5.1
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2011, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+/* The Nivo Slider styles */
+
+.wpb_gallery .nivoSlider {
+	position: relative;
+	width: 100% !important;
+}
+.wpb_gallery .nivoSlider img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+/* If an image is wrapped in a link */
+.wpb_gallery .nivoSlider a.nivo-imageLink {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	z-index: 6;
+	display: none;
+}
+/* The slices and boxes in the Slider */
+.wpb_gallery .nivo-slice {
+	display: block;
+	position: absolute;
+	z-index: 5;
+	height: 100%;
+}
+.wpb_gallery .nivo-box {
+	display: block;
+	position: absolute;
+	z-index: 5;
+}
+/* Caption styles */
+.wpb_gallery .nivo-caption {
+	display: none !important;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	opacity: 0.8; /* Overridden by captionOpacity setting */
+	width: 100%;
+	z-index: 8;
+}
+.wpb_gallery .nivo-caption p {
+	padding: 5px;
+	margin: 0;
+}
+.wpb_gallery .nivo-caption a {
+	display: inline !important;
+}
+.wpb_gallery .nivo-html-caption {
+    display: none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.wpb_gallery .nivo-directionNav {
+	display: block !important;
+}
+
+.wpb_gallery .nivo-directionNav a {
+	text-indent: -9999px;
+	
+	position:absolute;
+	top: 45%;
+	z-index: 9;
+	cursor:pointer;
+}
