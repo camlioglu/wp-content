@@ -5,7 +5,7 @@
 <footer id="footer">
   <div class="wrap group">
     <div class="footer-text">
-      <a href="http://www.cssigniter.com" title="<?php echo esc_attr(__('Premium WordPress Themes, CSSIgniter.com', CI_DOMAIN)); ?>"><?php _e('A WordPress theme by cssigniter.com', CI_DOMAIN); ?></a>
+
     </div>
   </div>
 </footer>

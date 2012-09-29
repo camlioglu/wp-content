@@ -22,7 +22,7 @@
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/colors/<?php ci_e_setting('stylesheet')?>.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/colors/default.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/js/fancybox/source/jquery.fancybox.css">
 
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
