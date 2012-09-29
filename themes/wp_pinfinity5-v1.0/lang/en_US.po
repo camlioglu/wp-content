@@ -1,0 +1,793 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pinfinity Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-30 05:09+0200\n"
+"PO-Revision-Date: 2012-07-30 05:09+0200\n"
+"Last-Translator: Vassilis Mastorostergios <vmasto@gmail.com>\n"
+"Language-Team: CSSIgniter Theme <info@cssigniter.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SearchPath-0: D:\\WORK\\CSSIgniter\\REPO\\themes\\pinfinity\\wp_pinfinity5\n"
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/404.php:9
+msgid "Not Found"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/404.php:14
+msgid "Oh, no! The page you requested could not be found. Perhaps searching will help..."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/comment-form.php:3
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/comments.php:14
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/comment-form.php:30
+msgid "Your Name"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/comment-form.php:31
+msgid "Your Email"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/comment-form.php:38
+msgid "Your Comment"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/comment-form.php:39
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/comment-form.php:40
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/comment-form.php:45
+msgid "Post your comment"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/comment-form.php:46
+#, php-format
+msgid "Reply to %s"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/comment-form.php:47
+msgid "Cancel reply"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/comment-form.php:48
+msgid "Submit"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/comments.php:6
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/comments.php:39
+msgid "Comments are closed."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/comments.php:16
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/comments.php:24
+msgid "No comments"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/comments.php:24
+msgid "1 comment"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/comments.php:24
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/footer.php:8
+msgid "Premium WordPress Themes, CSSIgniter.com"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/footer.php:8
+msgid "A WordPress theme by cssigniter.com"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/format-audio.php:26
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/index.php:140
+msgid "Play"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/format-audio.php:27
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/index.php:141
+msgid "Pause"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions.php:92
+msgid "Loading the next set of entries..."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions.php:93
+msgid "All entries loaded."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/index.php:49
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/index.php:125
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/index.php:164
+msgid "Permalink to"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/index.php:174
+msgid "&laquo; Next Set of Entries"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/searchform.php:2
+msgid "Search"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/searchform.php:3
+msgid "GO"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/single.php:22
+msgid "Posted by <strong>"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/ci_panel.php:54
+msgid "CSSIgniter Settings"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/ci_panel.php:66
+msgid "Pinfinity Settings"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/ci_panel.php:76
+msgid "Settings reset!"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/ci_panel.php:81
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/ci_panel.php:126
+msgid "Save Changes"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/ci_panel.php:90
+msgid "Site Options"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/ci_panel.php:91
+msgid "Background Options"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/ci_panel.php:92
+msgid "Display Options"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/ci_panel.php:93
+msgid "Social Options"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/ci_panel.php:94
+msgid "Google Options"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/ci_panel.php:95
+msgid "FeedBurner Options"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/ci_panel.php:96
+msgid "BuySellAds Options"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/ci_panel.php:97
+msgid "Custom CSS"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/ci_panel.php:133
+msgid "Reset Settings"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/archive_options.php:11
+msgid "The number of the latest posts displayed in the archive page."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/archive_options.php:12
+msgid "Number of latest posts"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/archive_options.php:16
+msgid "Use the following options to display various types of archives."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/archive_options.php:19
+msgid "Display weekly archive"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/archive_options.php:23
+msgid "Display monthly archive"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/archive_options.php:27
+msgid "Display yearly archive"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:40
+msgid "Control whether you want to override the theme's background, by enabling the custom background option and tweaking the rest as you please."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:43
+msgid "Disable custom background"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:50
+msgid "You can set the background color of the page here. This option overrides the background color set by the Color Scheme Option above, so leave it empty if you want the default. You may select a color using the color picker (pops up when you click on the input box), or enter its hex number in the input box (without a #)."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:52
+msgid "Background Color"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:58
+msgid "When this option is checked, the body background image is disabled, whether it's set by the default stylesheets or by you, from the option below."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:61
+msgid "Disable background image"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:66
+msgid "You can upload an image to use as custom background for your site. You can also choose whether you want the image to repeat."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:67
+msgid "Upload your background image"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:73
+msgid "Repeat background"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:75
+msgid "No Repeat"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:76
+msgid "Repeat"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:77
+msgid "Repeat X"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:78
+msgid "Repeat Y"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:84
+msgid "You can select the placement of you image in the background."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:87
+msgid "Background Horizontal Placement"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:89
+msgid "Left"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:90
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:100
+msgid "Center"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:91
+msgid "Right"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:97
+msgid "Background Vertical Placement"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:99
+msgid "Top"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:101
+msgid "Bottom"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:107
+msgid "When the fixed background option is checked, the background image will not scroll along with the rest of the page."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/background_options.php:110
+msgid "Fixed background"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/buysellads_options.php:19
+msgid "Paste here your BuySellAds.com code, as given by the BSA website, and it will be automatically included on every page. Then use our BSA Widget for your sidebar code."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/buysellads_options.php:20
+msgid "BuySellAds.com Code"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/custom_css.php:24
+msgid "Paste here any custom CSS code you might have."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/custom_css.php:25
+msgid "CSS Code"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:53
+msgid "The following options control the gallery items slider. You may enable or disable auto-sliding by checking the appropriate option and further control its behavior."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:56
+msgid "Enable auto-slide"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:59
+msgid "Slider Effect"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:61
+msgid "Fade"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:62
+msgid "Slide"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:66
+msgid "Slide Direction (only for <b>Slide</b> effect)"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:68
+msgid "Horizontal"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:69
+msgid "Vertical"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:73
+msgid "Slideshow speed in milliseconds (smaller number means faster)"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:77
+msgid "Animation duration in milliseconds (smaller number means faster)"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:83
+msgid "You can select whether you want the Content or the Excerpt to be displayed on listing pages."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:85
+msgid "Use the following on listing pages"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:88
+msgid "Use the Excerpt"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:92
+msgid "Use the Content"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:98
+msgid "You can set what the Read More text will be. This applies to the Content when the More Tag is set."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:100
+msgid "Read More text"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:106
+msgid "You can define how long the Excerpt will be (in words). You can also set the text that appears when the excerpt is auto-generated and is automatically cut-off. These options only apply to the Excerpt."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:108
+msgid "Excerpt length (in words)"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:112
+msgid "Excerpt auto cut-off text"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:118
+msgid "The title separator is inserted between various elements within the title tag of each page. Leading and trailing spaces are automatically inserted where appropriate."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:120
+msgid "Title separator"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:126
+msgid "You can enable and disable the \"Comments are closed\" message displayed on the bottom of each post when the comments are closed."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/display_options.php:129
+msgid "Show \"Comments are closed\" message"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/feedburner_options.php:9
+msgid "By adding your FeedBurner URL here, your main feed will be served by FeedBurner instead of your Wordpress site."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/feedburner_options.php:10
+msgid "FeedBurner Feed URL"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/feedburner_options.php:12
+msgid "FeedBurner Email URL"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/google_options.php:19
+msgid "Paste here your Google Analytics Code, as given by the Analytics website, and it will be automatically included on every page."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/google_options.php:20
+msgid "Google Analytics Code"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/google_options.php:26
+msgid "Enter here your Google Maps API Key. While your maps will be displayed at first without an API key, if you get a lot of visits to your site (more than 25.000 per day currently), the maps might stop working. In that case, you need to issue a key from <a href=\"https://code.google.com/apis/console/\">Google Accounts</a>"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/google_options.php:28
+msgid "Google Maps API Key"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/site_options.php:12
+msgid "You can set general blog options in this page. Your original WordPress settings will not be changed."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/site_options.php:14
+msgid "Logo text"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/site_options.php:19
+msgid "Upload your logo"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/site_options.php:25
+msgid "Select your color scheme."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/site_options.php:28
+msgid "Color scheme"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/site_options.php:30
+msgid "Default"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/site_options.php:31
+msgid "Red"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/site_options.php:32
+msgid "Green"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/site_options.php:33
+msgid "Purple"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/site_options.php:34
+msgid "Pink"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/site_options.php:35
+msgid "Mustard"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/site_options.php:41
+msgid "Select the layout of the site. There are two available layouts to choose. The default, where the Page and Posts content is centered and alternative, where they are left aligned."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/site_options.php:44
+msgid "Site layout"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/site_options.php:46
+msgid "Default - Posts and Pages are Centered"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/site_options.php:47
+msgid "Alternative - Posts and Pages Left Aligned"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/site_options.php:53
+msgid "Here you can upload your favicon. The favicon is a small, 16x16 icon that appears besides your URL in the address bar, in open tabs and/or in bookmarks. We recommend you create your favicon from an existing square image, using appropriate online services such as <a href=\"http://tools.dynamicdrive.com/favicon/\">Dynamic Drive</a> and <a href=\"http://www.favicon.cc/\">favicon.cc</a>"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/site_options.php:54
+msgid "Upload your favicon"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/social_options.php:24
+msgid "Subscribe to our RSS feed."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/social_options.php:28
+msgid "Follow us on twitter."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/social_options.php:32
+msgid "Check out our videos on YouTube."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/social_options.php:36
+msgid "Listen to our music on MySpace."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/social_options.php:40
+msgid "Like us on Facebook."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/social_options.php:44
+msgid "Join our circle in Google+"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/social_options.php:48
+msgid "Let's meet in LinkedIn"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/social_options.php:52
+msgid "See our pinboards on Pinterest"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/social_options.php:56
+msgid "See our photos on Flickr"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/social_options.php:60
+msgid "Visit our Wordpress.com blog"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/social_options.php:64
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/social_options.php:68
+msgid "See our Dribbble shots."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/social_options.php:72
+msgid "See our photos on Picasa."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/social_options.php:78
+msgid "Enter the URLs of your accounts on the following social media websites. The relevant icons will be displayed wherever you place the included -=CI SOCIAL=- widget. Unchecking and/or leaving an empty URL will hide the associated icon."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/social_options.php:82
+msgid "Enable RSS icon"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/social_options.php:85
+msgid "RSS Text"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/social_options.php:99
+msgid "Enable "
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/social_options.php:102
+msgid " URL"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/ci_panel/includes/social_options.php:106
+msgid " Text"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/ci_generic.php:40
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/ci_generic.php:165
+msgid "Uncategorized"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/ci_generic.php:196
+msgid "<span class=\"nav-prev-symbol nav-symbol\">&laquo;</span> Older posts"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/ci_generic.php:197
+msgid "Newer posts <span class=\"nav-next-symbol nav-symbol\">&raquo;</span>"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/comments.php:10
+msgid "Posted by "
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/comments.php:10
+msgid "at "
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/comments.php:10
+msgid "Reply"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/comments.php:19
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/comments.php:33
+msgid "Pingback:"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/comments.php:33
+msgid "(Edit)"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/loveit.php:17
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/loveit.php:20
+msgid "Love this."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/loveit.php:28
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/loveit.php:32
+msgid "You love this."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/loveit.php:102
+msgid "You have already loved this item."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/loveit.php:103
+msgid "Sorry, there was a problem processing your request."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/nav_menus.php:5
+msgid "Main Menu"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/sidebars.php:6
+msgid "Top Bar"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/sidebars.php:8
+msgid "Top Widget Bar of the Theme. Only the Search and CI_SOCIAL widgets are allowed here."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/sidebars.php:16
+msgid "First Box Widget"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/sidebars.php:18
+msgid "This is the first box of your homepage layout. You can put any widgets here."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:10
+msgid "Gallery Details"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:11
+msgid "Image Details"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:12
+msgid "Quote Details"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:13
+msgid "Video Details"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:14
+msgid "Audio Details"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:38
+msgid "You need to upload (or assign) two images to the post. This can be done by clicking <a href=\"#\" class=\"ci-btn-open-media\">here</a>, or pressing the <strong>Upload Images</strong> button bellow, or via the <strong>Add Media <img src=\""
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:39
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:47
+msgid "Upload Images"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:45
+msgid "You need to upload (or assign) a <strong>Featured Image</strong> to the post. This can be done by clicking <a href=\"#\" class=\"ci-btn-open-media\">here</a>, or pressing the <strong>Upload Images</strong> button bellow, or via the <strong>Add Media <img src=\""
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:46
+msgid "Once you have uploaded or selected your image, click on the <strong>Use as featured image</strong> link."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:57
+msgid "Quoted text:"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:60
+msgid "Write the name of your source here. Always give credit to the person who said it, rather than the place you found it. Even if it is something you found on a website, try to find out who wrote it, and write the author's name instead of the website's/company's name."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:62
+msgid "Cite:"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:65
+msgid "If your quote is something you found online, you can enter the URL here, and the name you entered above will become a link."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:67
+msgid "Citation URL:"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:77
+msgid "In the following box, you can simply enter the URL of a supported website's video. It needs to start with <strong>http://</strong> (E.g. <em>http://www.youtube.com/watch?v=4Z9WVZddH9w</em>). A list of supported websites can be <a href=\"http://codex.wordpress.org/Embeds#Okay.2C_So_What_Sites_Can_I_Embed_From.3F\">found here</a>."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:78
+msgid "If you want to embed a video from an unsupported website, copy the video's embed code and paste it into the same box below."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:79
+msgid "Your video will be resized automatically to fit the width of the post area."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:80
+msgid "The URL to the video to be embedded:"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:89
+msgid "In the following box, you can simply enter the URL of an <strong>MP3</strong> file, or click on the <strong>Upload</strong> button to upload and/or select an MP3 file from within WordPress."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:90
+msgid "The URL of the MP3 file to embed:"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/post_types/post.php:92
+msgid "Upload MP3"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/widgets/ci_widget_search_twitter.php:4
+msgid "Displays recent Tweets matching a search term"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/widgets/ci_widget_search_twitter.php:142
+msgid "Search tweets for"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/widgets/ci_widget_search_twitter.php:143
+msgid "Search interval (in seconds)"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/widgets/ci_widget_search_twitter.php:144
+msgid "Title"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/widgets/ci_widget_search_twitter.php:145
+msgid "Subject"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/widgets/ci_widget_search_twitter.php:148
+msgid "Set width automatically?"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/widgets/ci_widget_search_twitter.php:150
+msgid "Width (in pixels)"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/widgets/ci_widget_search_twitter.php:151
+msgid "Height (in pixels)"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/widgets/ci_widget_search_twitter.php:153
+msgid "Style"
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/widgets/ci_widget_social.php:46
+msgid "This widget is a placeholder for Social Media icons. You may configure those icons from the <a href=\"themes.php?page=ci_panel.php\">CSSIgniter's panel</a>, under the <strong>Social Options</strong> tab."
+msgstr ""
+
+#: D:\WORK\CSSIgniter\REPO\themes\pinfinity\wp_pinfinity5/functions/widgets/ci_widget_social.php:47
+msgid "Title:"
+msgstr ""
+
