@@ -4,3 +4,6 @@
 [submodule "plugins/private-page-login"]
 	path = plugins/private-page-login
 	url = git@github.com:wrktg/private-page-login.git
+[submodule "themes/wrktg-p2"]
+	path = themes/wrktg-p2
+	url = git@github.com:wrktg/wrktg-p2.git
