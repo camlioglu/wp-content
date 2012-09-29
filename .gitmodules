@@ -1,3 +1,6 @@
 [submodule "plugins/twoface"]
 	path = plugins/twoface
 	url = git@github.com:wrktg/twoface.git
+[submodule "plugins/private-page-login"]
+	path = plugins/private-page-login
+	url = git@github.com:wrktg/private-page-login.git
