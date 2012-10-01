@@ -7,6 +7,3 @@
 [submodule "themes/wrktg-p2"]
 	path = themes/wrktg-p2
 	url = git@github.com:wrktg/wrktg-p2.git
-[submodule "plugins/wp-cli-thinkup-import"]
-	path = plugins/wp-cli-thinkup-import
-	url = git@github.com:wrktg/wp-cli-thinkup-import.git
