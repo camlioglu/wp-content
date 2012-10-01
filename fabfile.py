@@ -18,6 +18,7 @@ def pull():
     '''Pull latest git version to live site'''
     with cd(env.wp_content):
         run('git pull origin master')
+        run('git submodule update')
 
 def push():
     '''Push from local environment to Github'''
