@@ -1,72 +1,3 @@
-<div id="container" class="wrap">
-
-<?php if (!$this->get_apikey()) { ?>
-
-	<section id="profile" class="grid_container api-key-form">
-		<section class="overlay"></section>
-		<form action="admin.php?page=wpmudev" method="post">
-		<div class="col-02">
-			<h3><?php _e('Please enter your membership API key to activate this plugin.', 'wpmudev') ?></h3>
-			<p><?php _e('Already a member? Your API Key can be found <a target="_blank" href="http://premium.wpmudev.org/wp-admin/profile.php?page=subscription">here</a>.', 'wpmudev') ?></p>
-			
-			<input type="text" placeholder="<?php _e('YOUR API KEY', 'wpmudev') ?>" id="wpmudev_apikey" name="wpmudev_apikey" value="<?php echo $this->get_apikey(); ?>" size="45" />
-				<?php if (isset($key_valid) && !$key_valid) { ?>
-					<div class="error fade"><p><i class="icon-warning-sign icon-large"></i> <?php _e('Your API Key was invalid. Please try again.', 'wpmudev'); ?></p></div>
-				<?php } ?>
-			<input type="submit" name="check_key" value="<?php _e('Activate &raquo;', 'wpmudev') ?>" />
-		</div>
-		</form>
-		<form action="https://premium.wpmudev.org/" method="post" target="_blank">
-		<div class="get-api-form">
-			<h3><?php _e("Don't have an API Key? No worries, just sign-up for one below and you'll be on your way. It's really simple, we promise :-)", 'wpmudev') ?></h3>
-			<form id="get-your-api-key" >
-				<input type="text" placeholder="<?php _e('Desired username', 'wpmudev') ?>" name="username" />
-				<input type="text" placeholder="<?php _e('Your email', 'wpmudev') ?>" name="email" />
-				<input type="password" placeholder="<?php _e('Password', 'wpmudev') ?>" name="password" />
-			</form>
-			<p><?php _e('Type of membership:', 'wpmudev') ?></p>
-			<table width="100%">
-				<tr>
-					<td width="64%" valign="top">
-						<table width="100%">
-							<tr>
-								<td width="24%" align="center"><input type="radio" name="plan" id="level_free" value="free" /></td>
-								<td width="24%" align="center"><input type="radio" name="plan" id="level_1" value="1" checked="checked" /></td>
-								<td width="24%" align="center"><input type="radio" name="plan" id="level_3" value="3" /></td>
-								<td width="24%" align="center"><input type="radio" name="plan" id="level_12" value="12" /></td>
-							</tr>
-							<tr>
-								<td align="center"><label for="level_free"><?php _e('Free', 'wpmudev') ?></label></td>
-								<td align="center"><label for="level_1"><?php _e('1 Month', 'wpmudev') ?></label></td>
-								<td align="center"><label for="level_3"><?php _e('3 Month', 'wpmudev') ?></label></td>
-								<td align="center"><label for="level_12"><?php _e('Annual', 'wpmudev') ?></label></td>
-							</tr>
-						</table>
-					</td>
-					<td width="36%" align="left">
-						<p class="small-desc">
-							<?php _e('Paid members get access to all of our premium plugins and themes, not to mention, the greatest WordPress support with lightning-fast response rates.', 'wpmudev') ?>
-						</p>
-						<p class="small-desc">
-							<?php _e("Try our 1 Month membership, we're certain you'll be hooked!", 'wpmudev') ?>
-						</p>
-					</td>
-				</tr>
-			</table>
-			<input type="submit" value="<?php _e('Get your API key &raquo;', 'wpmudev') ?>" />
-		</div>
-		</form>
-	</section>
-
-<?php } else if (!$this->allowed_user()) { ?>
-
-<section id="profile" class="grid_container" style="height: 0px;"></section>
-
-<?php } else { //api key isset 
-	if ( isset($_POST['wpmudev_apikey']) && ($data['membership'] == 'full' || is_numeric($data['membership'])) && isset($data['downloads']) && $data['downloads'] != 'enabled' ) {
-		?><div class="registered_error"><p><?php _e('You have reached your maximum enabled sites for automatic updates, one-click installations, and direct support through the WPMU DEV Dashboard plugin. You may <a href="http://premium.wpmudev.org/wp-admin/profile.php?page=wdpun">change which sites are enabled or upgrade to a higher membership level here &raquo;</a>', 'wpmudev'); ?></p></div><?php
-	}
-	?>
 	<section id="profile" class="grid_container">
 		<section class="overlay"></section>
 		<section class="profile-left col-03">
@@ -76,7 +7,11 @@
 							<?php echo $profile['profile']['gravatar']; ?>
 							<figcaption><?php echo $profile['profile']['title']; ?></figcaption>
 					 </figure>
-					 <a href="https://en.gravatar.com/site/login/" target="_blank"><?php _e('change gravatar', 'wpmudev'); ?></a>
+					<?php if (!$this->current_user_has_dev_gravatar()) { // Ooooh this is a mystery man! ?>
+						<b><a href="https://en.gravatar.com/site/signup/" class="grav-link" target="_blank"><i class="icon-user"></i>&nbsp;&nbsp;<?php _e('Get a gravatar now!', 'wpmudev'); ?></a></b>
+					<?php } else { // Regular gravatar (some sort of actual image) carry on ?>
+						<a href="https://en.gravatar.com/site/login/" class="grav-link" target="_blank"><i class="icon-user"></i>&nbsp;&nbsp;<?php _e('Change Gravatar', 'wpmudev'); ?></a>
+					<?php } ?>
 					</section>
 					<section class="profile-reputation">
 						<h1><?php _e('Welcome', 'wpmudev'); ?> <strong><em><?php echo $profile['profile']['name']; ?></em></strong></h1>
@@ -167,8 +102,10 @@
 			<a href="http://premium.wpmudev.org/profile/private/" target="_blank" class="button"><i class="icon-list icon-large"></i> <?php _e('VIEW ALL ACTIVITY', 'wpmudev'); ?></a>
 		</section>
 	</section>
-<?php } //end if apikey set ?>	
+
+	<!-- Bottom part of the dashboard -->
 	
+	<!-- 3 column section -->
 	<section id="main" role="main">
 		<!-- VISUAL BACKDROP -->
 		<div id="left-side-bg">
@@ -298,7 +235,7 @@
 														</span>
 														<ul>
 															<li><?php echo stripslashes($projects[$item]['short_description']); ?></li>
-															<a href="#"><span class="ui-hide-triangle"></span><?php _e('Learn more', 'wpmudev'); ?></a>
+															<a href="<?php echo self_admin_url('admin.php?page=wpmudev-themes#pid=' . (int)$projects[$item]['id']);?>"><span class="ui-hide-triangle"></span><?php _e('Learn more', 'wpmudev'); ?></a>
 														</ul>
 													</div>
 												</li>
@@ -343,94 +280,3 @@
 			</section> <!-- /COMMUNITY COLUMN -->
 		</section>
 	</section>
-	
-	<!--
-	<section id="updates-data">
-		<a href="#" class="updates-fold"><span class="symbol">{</span>&nbsp;&nbsp;<?php _e('show', 'wpmudev'); ?></a>
-		<h1><span class="symbol">Z</span> <?php _e('Updates, upgrades & new releases', 'wpmudev'); ?></h1>
-		<ul>
-			<li><span class="symbol scoping">6</span> - <?php _e('scoping', 'wpmudev'); ?></li>
-			<li><span class="symbol development">6</span> - <?php _e('development', 'wpmudev'); ?></li>
-			<li><span class="symbol testing">6</span> - <?php _e('testing', 'wpmudev'); ?></li>
-		</ul>
-		<table cellpadding="0" cellspacing="0" border="0">
-			<thead>
-				<tr>
-				<td width="9.6%" align="center"><?php _e('Type', 'wpmudev'); ?></td>
-				<td width="27.6%" align="left"><?php _e('Project name', 'wpmudev'); ?></td>
-				<td width="10.57%" align="left"><?php _e('Version', 'wpmudev'); ?></td>
-				<td width="36.85%" align="left"><?php _e('Status', 'wpmudev'); ?></td>
-				<td width="15.37%" align="left"><?php _e('Who', 'wpmudev'); ?></td>
-				</tr>
-			</thead>
-			<tbody>
-				<tr><td colspan="5" height="10px"></td></tr>
-				<tr>
-					<td align="center"><span class="symbol">~</span></td>
-					<td align="left">Theme Creation framework</td>
-					<td align="left">1.0.4</td>
-					<td align="left"><img src="../wp-content/plugins/wpmudev-updates/includes/images/graph.gif" /></td>
-					<td align="left">
-						<ul>
-							<li><img src="../wp-content/plugins/wpmudev-updates/includes/images/tiny_g.gif" /></li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td align="center"><span class="symbol">~</span></td>
-					<td align="left">Theme Creation framework</td>
-					<td align="left">1.0.4</td>
-					<td align="left"><img src="../wp-content/plugins/wpmudev-updates/includes/images/graph.gif" /></td>
-					<td align="left">
-						<ul>
-							<li><img src="../wp-content/plugins/wpmudev-updates/includes/images/tiny_g.gif" /></li>
-							<li><img src="../wp-content/plugins/wpmudev-updates/includes/images/tiny_g.gif" /></li>
-							<li><img src="../wp-content/plugins/wpmudev-updates/includes/images/tiny_g.gif" /></li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td align="center"><span class="symbol">~</span></td>
-					<td align="left">Theme Creation framework</td>
-					<td align="left">1.0.4</td>
-					<td align="left"><img src="../wp-content/plugins/wpmudev-updates/includes/images/graph.gif" /></td>
-					<td align="left">
-						<ul>
-							<li><img src="../wp-content/plugins/wpmudev-updates/includes/images/tiny_g.gif" /></li>
-							<li><img src="../wp-content/plugins/wpmudev-updates/includes/images/tiny_g.gif" /></li>
-							<li><img src="../wp-content/plugins/wpmudev-updates/includes/images/tiny_g.gif" /></li>
-							<li><img src="../wp-content/plugins/wpmudev-updates/includes/images/tiny_g.gif" /></li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td align="center"><span class="symbol">~</span></td>
-					<td align="left">Theme Creation framework</td>
-					<td align="left">1.0.4</td>
-					<td align="left"><img src="../wp-content/plugins/wpmudev-updates/includes/images/graph.gif" /></td>
-					<td align="left">
-						<ul>
-							<li><img src="../wp-content/plugins/wpmudev-updates/includes/images/tiny_g.gif" /></li>
-							<li><img src="../wp-content/plugins/wpmudev-updates/includes/images/tiny_g.gif" /></li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td align="center"><span class="symbol">~</span></td>
-					<td align="left">Theme Creation framework</td>
-					<td align="left">1.0.4</td>
-					<td align="left"><img src="../wp-content/plugins/wpmudev-updates/includes/images/graph.gif" /></td>
-					<td align="left">
-						<ul>
-							<li><img src="../wp-content/plugins/wpmudev-updates/includes/images/tiny_g.gif" /></li>
-							<li><img src="../wp-content/plugins/wpmudev-updates/includes/images/tiny_g.gif" /></li>
-							<li><img src="../wp-content/plugins/wpmudev-updates/includes/images/tiny_g.gif" /></li>
-						</ul>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-		<a href="#" class="button"><span class="symbol">9</span> <?php _e('VIEW ALL', 'wpmudev'); ?></a>
-	</section>
-	-->
-</div> <!--! end of #container -->
